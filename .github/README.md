@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-inspector-scan`](https://www.npmjs.com/package/@aws-sdk/client-inspector-scan/v/3.1013.0).
+[`@aws-sdk/client-inspector-scan`](https://www.npmjs.com/package/@aws-sdk/client-inspector-scan/v/3.1014.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-inspector-scan@3.1013.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-inspector-scan@3.1014.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-9Sm2xywsVUrhw2SsVi6CjBjktcYSzN7lptqS6iHoz1YeInTHDDh2ZzcG9p9Ft5KB
+sha384-NmJiJK+ITjE4X8jyA2aaoeN04BfkzBhiC6WKCjvkxyrhBn0pj/6Ne9Eu0bRIZcJx
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-inspector-scan": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-inspector-scan@3.1013.0/index.min.mjs"
+            "@aws-sdk/client-inspector-scan": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-inspector-scan@3.1014.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-inspector-scan@3.1013.0/index.min.mjs": "sha384-9Sm2xywsVUrhw2SsVi6CjBjktcYSzN7lptqS6iHoz1YeInTHDDh2ZzcG9p9Ft5KB"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-inspector-scan@3.1014.0/index.min.mjs": "sha384-NmJiJK+ITjE4X8jyA2aaoeN04BfkzBhiC6WKCjvkxyrhBn0pj/6Ne9Eu0bRIZcJx"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-inspector-scan": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-inspector-scan@3.1013.0/index.min.mjs"
+                        "@aws-sdk/client-inspector-scan": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-inspector-scan@3.1014.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-inspector-scan@3.1013.0/index.min.mjs": "sha384-9Sm2xywsVUrhw2SsVi6CjBjktcYSzN7lptqS6iHoz1YeInTHDDh2ZzcG9p9Ft5KB"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-inspector-scan@3.1014.0/index.min.mjs": "sha384-NmJiJK+ITjE4X8jyA2aaoeN04BfkzBhiC6WKCjvkxyrhBn0pj/6Ne9Eu0bRIZcJx"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1013.0`)
+* Always pin to a specific version (`@3.1014.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-inspector-scan/blob/refs/tags/3.1013.0/LICENSE
+https://github.com/cloud-sdk-builds/client-inspector-scan/blob/refs/tags/3.1014.0/LICENSE
 ```
 
 ---
